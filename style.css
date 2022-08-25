@@ -1,0 +1,67 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background-color: #1e2d3b;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* HEADER */
+header {
+    background-color: #2f4154;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+header img {
+    width: 40px;
+}
+
+/* MAIN */
+
+main section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 35px 0;
+}
+main section .list-disc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-select {
+    color: white;
+}
+.content-select label {
+    padding-right: 5px;
+}
+
+/* Card */
+.single-card {
+    width: calc((100% / 5) - 25px);
+    background-color: #2d4255;
+    padding: 12px;
+    text-align: center;
+}
+.single-card h2 {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+.single-card, .autor-card, .year-card {
+    font-size: 10px;
+    color: white;
+}
