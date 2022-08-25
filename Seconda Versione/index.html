@@ -14,7 +14,7 @@
 <body>
     <div id="root">
         <header>
-            <img src="img/logo-small.svg" alt="Logo">
+            <img src="/img/logo-small.svg" alt="Logo">
         </header>
         <main>
             <section>
@@ -23,7 +23,7 @@
                 <div class="list-disc">               
                     <div class="single-card" v-for="disc in albums">
                         <div class="img-card">
-                            <img :src="singleDisc.poster" :alt="disc.title">
+                            <img :src="disc.poster" :alt="disc.title">
                         </div>
                         <div class="title-card">
                             <h2>
