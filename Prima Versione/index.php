@@ -14,7 +14,6 @@ Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, a
 
 Prima Milestone: recuperare la lista dei dischi tramite una chiamata axios e stampare la lista dei titoli degli album all'interno di una lista non numerata <ul>
 Seconda Milestone: per ogni disco, stampare una card con tutte le informazioni
-
 Bonus:
 Attraverso un’altra chiamata api, filtrare gli album per genere lato backend.
 Consigli del giorno:

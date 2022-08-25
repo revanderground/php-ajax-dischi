@@ -61,7 +61,8 @@ main section .list-disc {
     text-transform: uppercase;
     padding: 12px 0;
 }
-.single-card, .autor-card, .year-card {
+.single-card, .author-card, .year-card {
     font-size: 10px;
     color: white;
 }
+
